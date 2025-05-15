@@ -1,0 +1,58 @@
+body {
+  background: linear-gradient(135deg, #34495e, #2c3e50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.dice-roller {
+  background: linear-gradient(135deg, #3498db, #9b59b6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  transition: background 0.5s ease, transform 0.5s ease;
+}
+
+.dice-roller:hover {
+  background: linear-gradient(135deg, #9b59b6, #3498db);
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.dice-emoji {
+  font-size: 4rem;
+  color: #ecf0f1;
+  margin-bottom: 20px;
+}
+
+.dice-value {
+  font-size: 1.2rem;
+  color: #ecf0f1;
+  margin-bottom: 15px;
+}
+
+.roll-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.roll-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
